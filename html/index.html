@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    body{
+
+      background-color: #f1f1f1;
+      font-family: sans-serif;
+      color: #023047;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+
+    }
+
+    header{
+      background-color: #219ebc;
+      color: #fff;
+      text-align: center;
+      padding: 20px
+    }
+
+    main{
+      flex:1;
+      display: flex;
+      justify-content: center;
+      /* max-width: 400px; */
+      align-items: center;
+      padding: 20px;
+      margin: 20px auto ;
+    }
+
+    .input-login{
+      background-color: #fff;
+      border: 2px solid #219ebc;
+      color: #023047;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    .input-login:focus{
+      border-color: orange;
+      outline: none;
+    }
+
+    .login-box{
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      width: 100%;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .login-box h2 {
+      color: red;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-box a{
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      color:white;
+      background-color: black;
+      text-align: center;
+      display: block;
+
+    }
+
+    a.primary{
+      background-color: #ffb703;
+      margin-bottom: 20px;
+    }
+    a.secondary{
+      background-color: #fb8500;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>InstaPIC</header>
+
+  <!-- <aside></aside> -->
+  <main>
+
+    <div class="login-box">
+      este es el main
+      <h2 >Iniciar Sesión</h2>
+      <input type="text" placeholder="nombre" class="input-login"/>
+      <input type="password"  placeholder="Contraseña" class="input-login"/>
+  
+      <a href="sign-up.html" class="primary">Ingresar</a>
+      <a href="sign-up.html" class="secondary">Registrarme</a>
+    </div>
+
+
+  </main>
+    
+
+
+
+  <footer>
+    &copy;todos los derechos reservados &#128517
+  </footer>
+
+</body>
+
+</body>
+</html>
+
